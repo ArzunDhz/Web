@@ -1,0 +1,349 @@
+html{
+
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+.link
+{text-decoration: none;}
+
+#scrollPath
+{
+    position: fixed;
+    top: 0%;
+    width: 10px;
+    left: 0;
+    height: 100%;
+    background-color: rgba(255,255,255,0.05);
+}
+
+#progressbar
+{
+    position: fixed;
+    top: 0%;
+    width: 10px;
+    height: 100%;
+    background:linear-gradient(to top ,#008aff, #00ffe7);
+    animation:  animate 5s linear infinite;
+}
+
+
+@keyframes animate
+{
+ 0%,100%
+ {
+    filter: hue-rotate(0deg);
+ }
+ 50%{
+    filter: hue-rotate(360deg);
+ }
+}
+ #progressbar:before
+{
+   content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top ,#008aff, #00ffe7);
+filter: blur(10px);
+}
+
+#progressbar::after
+{
+   content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(to top ,#008aff, #00ffe7);
+filter: blur(30px);
+}
+
+
+
+#particles-js {
+background:#0F0707;
+height:390px;
+padding: 0;
+margin: 0;
+    }
+    
+#particles-js2 {
+        background:#0F0707;
+        height:390px;
+        padding: 0;
+        margin: 0;
+            }
+
+body{
+    min-height: 100vh;
+    background: #0F0707;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+
+/* page 1  */
+
+.navdiv{
+    margin-left: 40em;
+}
+
+
+nav>span {
+  color: white;
+  margin:2em;
+
+}
+
+div>span{
+  text-align: center;
+  font-size: 2em;
+  color: white;
+position: relative;
+top: 3em;
+}
+.hey{
+font-size: 4em;
+margin-left: 1em;
+}
+.look{
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+h1{
+
+    font-size: 3em;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+#skill
+{
+
+    margin-top: 15em;
+    
+}
+
+.images>img{
+
+
+margin: 1em;
+
+}
+
+
+
+/*page  - 2*/
+
+
+
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px) rotate(0deg) scale(1) ; }
+    50%  { transform: translate(0, -20px) rotate(180deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(360deg) scale(1); }   
+}
+.floating1 { 
+    animation-name: floating1;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating1 {
+    0% { transform: translate(0,  0px) rotate(0deg) scale(1) ; }
+    50%  { transform: translate(0, 100px) rotate(180deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(360deg) scale(1); }   
+}
+.floating2 { 
+    animation-name: floating2;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating2 {
+    0% { transform: translate(0,  0px) rotate(0deg) scale(1) ; }
+    50%  { transform: translate(0, 2px) rotate(70deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(-20deg) scale(1); }   
+}
+.floating3 { 
+    animation-name: floating3;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating3 {
+    0% { transform: translate(0,  0px) rotate(0deg) scale(1) ; }
+    50%  { transform: translate(0, 60px) rotate(10deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(30deg) scale(1); }   
+}
+.floating4 { 
+    animation-name: floating4;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating4 {
+    0% { transform: translate(0,  0px) rotate(-50deg) scale(1) ; }
+    50%  { transform: translate(0, 30px) rotate(10deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(60deg) scale(1); }   
+}
+.floating5 { 
+    animation-name: floating5;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating5 {
+    0% { transform: translate(0,  0px) rotate(0deg) scale(1) ; }
+    50%  { transform: translate(0, 13px) rotate(18deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(60deg) scale(1); }   
+}
+.floating6 { 
+    animation-name: floating6;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 90px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating6 {
+    0% { transform: translate(0,  0px) rotate(-060deg) scale(1) ; }
+    50%  { transform: translate(0, 10px) rotate(10deg) scale(1.1) ; }
+    100%   { transform: translate(0, -0px) rotate(30deg) scale(1); }   
+}
+
+
+
+
+/*  page 3  */
+.projects
+{
+    margin-top:10em;
+    justify-content: center;
+
+}
+.projects>img {
+    margin-left: 5em;
+    margin-bottom: 5em;
+    border-radius: 5%;
+
+}
+.projects>img:hover {
+
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+
+        animation-name: floatingg;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        margin-left: 90px;
+        margin-top: 5px;
+}
+
+@keyframes floatingg {
+    0% { transform: translate(0,  0px) scale(1) ; }
+    50%  { transform: translate(0, 10px) scale(1.2) ; }
+    100%   { transform: translate(0, -0px) scale(1); }   
+}
+
+
+/* page 4  */
+
+
+
+
+
+
+
+
+
+ul {
+    margin-left: 10em;
+    padding: 0;
+    display: flex;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    position: relative; 
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+  }
+  
+  ul li a::before {
+    content: '';
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.9);
+    z-index: -1;
+  }
+  
+  ul li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  }
+  
+  ul li a:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+  }

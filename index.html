@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+
+    <!-- page--1 -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <section id="#home" data-aos="fade-up " data-aos-delay="250" > 
+        <div class="navdiv">
+            <nav class='navbar'>
+                <span> <a  style="text-decoration: none ; color: greenyellow ;" href="#home"> Home  </a> </span>
+                <span> <a  style="text-decoration: none ; color: greenyellow;"  href="#skill"> Skill  </a> </span>
+                <span> <a  style="text-decoration: none ; color: greenyellow;"  href="#Projects"> Project </a> </span>
+                <span> <a  style="text-decoration: none ; color: greenyellow;"  href="#contact"> Contact </a> </span>
+            </nav>
+
+
+        </div>
+
+
+        <div id="particles-js">
+            <span class="hey">
+                Hey there !!
+            </span>
+            <br>
+            <span class="look">
+                Looking for me
+            </span>
+        </div>
+    </section>
+
+    <!-- page 2  -->
+
+    <section id="skill">
+
+
+
+<div data-aos="fade-up"  data-aos-delay="250" >
+ 
+<h1>My Skills</h1>
+<img src="./images/image 2.png"  class="floating" height="200px" width="200px"  alt="">
+
+<img src="./images/image 3.png"  class="floating2" height="200px" width="200px"  alt="">
+<img src="./images/image 4.png"  class="floating3" height="200px" width="200px"  alt="">
+<img src="./images/image 6.png"  class="floating4" height="200px" width="200px"  alt="">
+<img src="./images/image 7.png"  class="floating5" height="200px" width="200px"  alt="">
+<img src="./images/image 8.png"  class="floating6" height="200px" width="200px"  alt="">
+
+</div>
+</section>
+
+
+
+
+
+
+<section id="Projects" data-aos="fade-up"  data-aos-delay="250" >
+    <h1>Projects</h1>
+    <div class="projects">
+
+        <img src="./images/p2.png" height="250px" width="400px" alt="">
+        <img src="./images/p1.png" height="250px" width="400px" alt="">
+        <img src="./images/p3.png" height="250px" width="400px" alt="">
+        <img src="./images/p4.png" height="250px" width="400px" alt="">
+    </div>
+
+
+    
+</section>
+
+
+
+
+<section id="contact"  data-aos="fade-up"  data-aos-delay="250">
+
+
+<h1> Contact Me</h1>
+
+<div  class="footer">
+   
+
+
+
+    </div>
+
+
+    
+    <div id="particles-js2">
+       
+
+
+            <ul>
+                <li>
+                  <a href="https://www.facebook.com/dahalarjun404" class="floating2">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/arzun.1/" class="floating1">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  </li>
+                <li>
+                  <a href="https://twitter.com/ayush63926177" class="floating3" >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  
+                </li>
+                <li>
+                  <a href="https://github.com/ArzunDhz"class="floating4" >
+                    <i class="fab fa-github"></i>
+                  </a> 
+                </li>
+              </ul>
+    
+        
+    </div>
+
+</section>
+
+</body>
+
+
+
+<script src="particles.min.js"></script>
+<script src="app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+<script>
+  let progess = document.getElementById('progressbar');
+  let totalHeight = document.body.scrollHeight - window.innerHeight;
+  window.onscroll = function(){
+    let progessHeight = ( window.pageYOffset/totalHeight)*100;
+    progess.style.height = progessHeight+"%";
+  }
+</script>
+
+</html>
